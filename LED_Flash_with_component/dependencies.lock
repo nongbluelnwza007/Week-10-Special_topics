@@ -1,0 +1,18 @@
+dependencies:
+  LED:
+    component_hash: 81477e1921a2502677380f89c1b5776ea1ff7bc8496ca2c3cdc8cb7da7e905ad
+    dependencies: []
+    source:
+      git: https://github.com/jamelswift/Week-10-Special_topics.git
+      path: S66281/LED
+      type: git
+    version: 760a06b118c551b054b5bcc2e7a5a7824c583afb
+  idf:
+    source:
+      type: idf
+    version: 5.5.1
+direct_dependencies:
+- LED
+manifest_hash: 19fa178692a6afb6a01dd71992af73005de34aa14519537348f3011dfdd82cac
+target: esp32
+version: 2.0.0
